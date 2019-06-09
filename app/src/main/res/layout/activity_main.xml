@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        app:tabIndicatorColor="@color/colorAccent"
+        app:tabIndicatorHeight="3dp"
+        app:tabBackground="@android:color/transparent"
+        app:tabRippleColor="@android:color/transparent"
+        app:tabIndicatorFullWidth="false"
+        android:layout_gravity="center_horizontal"
+        android:foregroundGravity="center_horizontal"
+        >
+    </android.support.design.widget.TabLayout>
+
+    <!--控件不可见可以设置，马勒戈壁-->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/content_vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:layout_margin="20dp"
+        android:layout_gravity="center_horizontal">
+
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

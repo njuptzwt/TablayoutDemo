@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="130dp"
+        android:layout_height="90dp"
+        android:id="@+id/item_image"
+        android:layout_gravity="center_horizontal" />
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_description"
+        android:layout_margin="1dp"
+        android:textAlignment="center"
+        android:textColorHighlight="@color/colorPrimary"
+        android:layout_gravity="center_horizontal"/>
+    <!--其中android:layout_marginTop="5dp"是让组件上下间的距离存在空距离-->
+
+</LinearLayout>
